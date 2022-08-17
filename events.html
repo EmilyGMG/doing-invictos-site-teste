@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>UNANIMES-Parobé</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./assets-index/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets-ebv/css/responsive.css" rel="stylesheet">
+  <link href="./assets-events/css/slick.css" rel="stylesheet">
+  <link href="./style-main-event.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"
+    style="background: #343b40">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 200px;">
+        <img class="img-fluid" src="./img/logo-ipub.png" alt="" />
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger active" href="index.html"><p class="herader-color">Home</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about"><p class="herader-color">Sobre</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#schedule"><p class="herader-color">Agenda</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#maps"><p class="herader-color">Mapa</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="ebv.html"><p class="herader-color">Em busca da verdade</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact"><p class="herader-color">Contate-nos</p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="left-days">
+  <div class="middle">
+    <h1>Próximo Evento</h1>
+    <hr>
+    <p>SEM DATA PARA O PRÓXIMO EVENTO</p>
+    <!-- <p id="demo" style="font-size:30px"></p> -->
+  </div>
+</div>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-area">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="about-left">
+                  <img class="img-header" src="./img/p1.jpg" alt="Men Speaker">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-right">
+                  <h2>Sobre o Ùltimo Evento</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam distinctio magni enim error
+                    commodi suscipit nobis alias nulla, itaque ex, vitae repellat amet neque est voluptatem iure maxime
+                    eius!</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in accusamus qui sequi nisi,
+                    sint magni, ipsam, porro nesciunt id veritatis quaerat ipsum consequatur laborum, provident veniam
+                    quibusdam placeat quam?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perspiciatis magni omnis
+                    excepturi, cumque reiciendis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="section-header">
+        <h2 class="section-title">Eventos passados</h2>
+      </div>
+      <div class="portfolio-item filter-app">
+        <div class="details">
+          <h4 style="text-align: center;">UNANIMES 2019</h4>
+        </div>
+        <video class="video-evento" controls="" width="500">
+          <source src="./img/capa-site01.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="schedule-area">
+          <div class="title-area">
+            <h2 class="title">Agenda</h2>
+          </div>
+          <div class="schedule-content-area">
+            <div class="tab">
+              <button type="button" class="tablinks btn" style="background: #bcaa59;border-color: #bcaa59; color: white;" onclick="openCity(event, 'London')" id="defaultOpen">Dia 1/20 Fevereiro</button>
+              <button type="button" class="tablinks btn" style="background: #bcaa59;border-color: #bcaa59; color: white;" onclick="openCity(event, 'Paris')">Dia 2/20 Fevereiro</button>
+              <button type="button" class="tablinks btn" style="background: #bcaa59;border-color: #bcaa59; color: white;" onclick="openCity(event, 'Tokyo')">Dia 3/20 Fevereiro</button>
+            </div>
+
+            <div class="tab-content schedule-content">
+              <div id="London" class="tabcontent">
+                <section class="timeline">
+                <ul>
+                  <li>
+                    <div>
+                      <img class="img-schedule" src="./img/p1.jpg" alt="event speaker">
+                      <time>06:00</time>
+                      <p class="title-shedule">At vero eos et accusamus.</p> 
+                      <p class="name-schedule">by name</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img class="img-schedule" src="./img/p1.jpg" alt="event speaker">
+                      <time>09:00</time>
+                      <p class="title-shedule">At vero eos et accusamus.</p> 
+                      <p class="name-schedule">by name</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img class="img-schedule" src="./img/p1.jpg" alt="event speaker">
+                      <time>10:00</time>
+                      <p class="title-shedule">At vero eos et accusamus.</p> 
+                      <p class="name-schedule">by name</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img class="img-schedule" src="./img/p1.jpg" alt="event speaker">
+                      <time>11:30</time>
+                      <p class="title-shedule">At vero eos et accusamus.</p> 
+                      <p class="name-schedule">by name</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img class="img-schedule" src="./img/p1.jpg" alt="event speaker">
+                      <time>15:00</time>
+                      <p class="title-shedule">At vero eos et accusamus.</p> 
+                      <p class="name-schedule">by name</p>
+                    </div>
+                  </li>
+                  
+                </ul>
+                </section> 
+              </div>
+
+              <div id="Paris" class="tabcontent">
+                <section class="timeline">
+                  <ul>
+                    <li>
+                      <div>
+                        <time>07:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>09:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>10:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>11:30</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>15:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                  </section> 
+              </div>
+
+              <div id="Tokyo" class="tabcontent">
+                <section class="timeline">
+                  <ul>
+                    <li>
+                      <div>
+                        <time>08:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>09:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>10:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>11:30</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>15:00</time>
+                        <p class="title-shedule">At vero eos et accusamus.</p> 
+                        <p class="name-schedule">by name</p>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                  </section> 
+              </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="maps" style="margin-bottom: 2%; background-color: #bcaa58;">
+    <div class="maps-area">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="maps-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781"
+              style="border:0" allowfullscreen="" width="100%" height="450" frameborder="0">
+            </iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="maps-address">
+            <h2>Endereço do Evento</h2>
+            <h3>Avenida Rua 25</h3>
+            <h4>9800 International Dr, Orlando, FL 32819, USA</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        © Copyright <strong>IPUB</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets-events/js/jquery.countdown.min.js"></script>
+  <script type="text/javascript" src="./assets-events/js/slick.min.js"></script>
+  <script type="text/javascript" src="./assets-events/js/custom.js"></script>
+  <script type="text/javascript" src="./assets-ebv/js/custom.js"></script>
+  <script type="text/javascript" src="./assets-ebv/js/all.js"></script>
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+
+<!-- TIME LINE https://codepen.io/devehab/pen/xOxYae -->
+    <script>
+      (function() {
+
+'use strict';
+
+// define variables
+var items = document.querySelectorAll(".timeline li");
+
+// check if an element is in viewport
+// http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function callbackFunc() {
+  for (var i = 0; i < items.length; i++) {
+    if (isElementInViewport(items[i])) {
+      items[i].classList.add("in-view");
+    }
+  }
+}
+
+// listen for events
+window.addEventListener("load", callbackFunc);
+window.addEventListener("resize", callbackFunc);
+window.addEventListener("scroll", callbackFunc);
+
+})();
+    </script>
+
+    <!---- Date --->
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+      
+      // Update the count down every 1 second
+      var countdownfunction = setInterval(function() {
+      
+        // Get todays date and time
+        var now = new Date().getTime();
+        
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+        
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(countdownfunction);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
+</body>
+
+</html>
